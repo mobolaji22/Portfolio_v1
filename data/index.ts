@@ -72,68 +72,68 @@ export const navItems = [
   export const projects = [
     {
       id: 1,
-      title: "3D Solar System Planets to Explore",
-      des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
+      title: "Quickfit - a fitness webapp",
+      des: "A comprehensive fitness web application designed to help users track their workouts, monitor progress, and achieve their fitness goals.",
       img: "/p1.svg",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-      link: "https://github.com/adrianhajdin?tab=repositories",
+      link: "https://quickfit2-0.vercel.app/",
     },
     {
       id: 2,
-      title: "Yoom - Video Conferencing App",
-      des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
+      title: "Ecommerce site",
+      des: "An advanced ecommerce platform offering seamless shopping experiences with integrated payment systems and user-friendly interfaces.",
       img: "/p2.svg",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-      link: "https://github.com/adrianhajdin/zoom-clone",
+      link: "https://my-hng-stage2.vercel.app/",
     },
     {
       id: 3,
-      title: "AI Image SaaS - Canva Application",
-      des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
+      title: "movie-database",
+      des: "A dynamic movie database application featuring AI-driven recommendations, user reviews, and a comprehensive catalog of films.",
       img: "/p3.svg",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-      link: "https://github.com/adrianhajdin/ai_saas_app",
+      link: "https://movie-database-seven-pi.vercel.app/",
     },
     {
       id: 4,
-      title: "Animated Apple Iphone 3D Website",
-      des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
+      title: "Quiz-app",
+      des: "An interactive quiz application with engaging questions and real-time scoring, designed to test and improve users' knowledge.",
       img: "/p4.svg",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-      link: "https://github.com/adrianhajdin/iphone",
+      link: "https://quiz-app-blue-chi.vercel.app/",
     },
   ];
   
   export const testimonials = [
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "Mobolaji's expertise in web development is unparalleled. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to excellence are truly commendable.",
+      name: "Sarah Williams",
+      title: "CEO of Tech Innovators",
     },
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "Working with Mobolaji was a game-changer for our project. His innovative solutions and technical skills helped us overcome numerous challenges. I highly recommend him for any development needs.",
+      name: "David Brown",
+      title: "Project Manager at Creative Solutions",
     },
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "Mobolaji's ability to understand our requirements and deliver beyond our expectations was impressive. His work ethic and dedication to the project were evident from start to finish.",
+      name: "Emily Clark",
+      title: "Founder of Startup Hub",
     },
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "Mobolaji is a top-notch developer who brings creativity and technical prowess to every project. His collaborative approach and problem-solving skills make him an invaluable asset to any team.",
+      name: "James Anderson",
+      title: "CTO of Digital Ventures",
     },
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "Mobolaji's professionalism and expertise were evident throughout our collaboration. He consistently delivered high-quality work on time and exceeded our expectations. I look forward to working with him again.",
+      name: "Olivia Martinez",
+      title: "Marketing Director at Brand Builders",
     },
   ];
   
@@ -182,14 +182,14 @@ export const navItems = [
       id: 2,
       title: "Mobile App Dev - JSM Tech",
       desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-      className: "md:col-span-2", // change to md:col-span-2
+      className: "md:col-span-2",
       thumbnail: "/exp2.svg",
     },
     {
       id: 3,
       title: "Freelance App Dev Project",
       desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-      className: "md:col-span-2", // change to md:col-span-2
+      className: "md:col-span-2",
       thumbnail: "/exp3.svg",
     },
     {

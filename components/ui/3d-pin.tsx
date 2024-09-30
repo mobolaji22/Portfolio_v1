@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { cn } from "@/lib/utils";
 import Link from "next/link";
@@ -66,6 +66,16 @@ export const PinPerspective = ({
   title?: string;
   href?: string;
 }) => {
+  const [isClient, setIsClient] = useState(false);
+
+  useEffect(() => {
+    setIsClient(true);
+  }, []);
+
+  if (!isClient) {
+    return null; // Render nothing on the server
+  }
+
   return (
     <motion.div className="pointer-events-none  w-full h-80 flex items-center justify-center opacity-0 group-hover/pin:opacity-100 z-[60] transition duration-500">
       <div className=" w-full h-full -mt-7 flex-none  inset-0">
@@ -101,7 +111,6 @@ export const PinPerspective = ({
               animate={{
                 opacity: [0, 1, 0.5, 0],
                 scale: 1,
-
                 z: 0,
               }}
               transition={{
@@ -121,7 +130,6 @@ export const PinPerspective = ({
               animate={{
                 opacity: [0, 1, 0.5, 0],
                 scale: 1,
-
                 z: 0,
               }}
               transition={{
@@ -141,7 +149,6 @@ export const PinPerspective = ({
               animate={{
                 opacity: [0, 1, 0.5, 0],
                 scale: 1,
-
                 z: 0,
               }}
               transition={{
